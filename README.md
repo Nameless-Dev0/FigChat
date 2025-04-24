@@ -1,7 +1,7 @@
 <h1 align="center" id="title">FigChat</h1>
 
 <p align="center">
-  <img src="images/fig.png" alt="FigChat Logo" width="600">
+  <img src="images/fig.png" alt="FigChat Logo" width="300">
 </p>
 
 <p align="center" id="description">
