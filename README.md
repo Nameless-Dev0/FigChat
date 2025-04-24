@@ -11,9 +11,8 @@ FigChat uses a centralized server model and client-server architecture, offering
 
 - Real-time Messaging: Instant communication between clients over TCP/IP.
 - Private & Broadcast Messaging: Send messages directly to individuals or to all connected users.
-- File Transfer Support: Upload and share files easily between users.
+- File Transfer Support: Upload and share files to server.
 - Centralized Server Architecture: Manages client connections, message routing, and data flow.
-- Multi-threaded Server: Handles multiple client connections concurrently.
 - User-friendly GUI: Built using the Qt framework for a smooth user experience.
 - Robust Error Handling: Ensures stable client-server communication.
 
@@ -34,10 +33,10 @@ FigChat uses a centralized server model and client-server architecture, offering
 
 - Qt Framework (Qt 5 or 6)
 - C++17 compatible compiler
-- CMake (optional, if not using Qt Creator)
+- QMake (using Qt Creator)
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/FigChat.git
+git clone https://github.com/Nameless-Dev0/FigChat.git
 cd FigChat
