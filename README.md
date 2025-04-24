@@ -35,7 +35,7 @@ FigChat uses a centralized server model and client-server architecture, offering
 
 ### Prerequisites
 
-- Qt Framework (Qt 5 or 6)
+- Qt Framework (Qt version 6)
 - C++17 compatible compiler
 - QMake (using Qt Creator)
 
@@ -44,3 +44,14 @@ FigChat uses a centralized server model and client-server architecture, offering
 ```bash
 git clone https://github.com/Nameless-Dev0/FigChat.git
 cd FigChat
+
+Client:
+Open qmake file from the client called client.pro from the client folder using QtCreator
+Select and Configure the Qt Kit 6.9 
+Build release and run
+
+Server:
+Open qmake file from the client called server.pro from the server folder using QtCreator
+Select and Configure the Qt Kit 6.9 
+Build release and run
+
