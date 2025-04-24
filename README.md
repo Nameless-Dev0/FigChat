@@ -1,3 +1,43 @@
 <h1 align="center" id="title">FigChat</h1>
 
-<p id="description">A real-time chat application using C++ QML and TCP/IP with support for private and group messaging built on a client-server architecture</p>
+<p align="center" id="description">
+A real-time chat application built using TCP/IP Networking, C++, and the Qt Framework.<br>
+FigChat uses a centralized server model and client-server architecture, offering a seamless messaging experience with support for private messaging, broadcasts, file sharing, and more.
+</p>
+
+---
+
+## Features
+
+- Real-time Messaging: Instant communication between clients over TCP/IP.
+- Private & Broadcast Messaging: Send messages directly to individuals or to all connected users.
+- File Transfer Support: Upload and share files easily between users.
+- Centralized Server Architecture: Manages client connections, message routing, and data flow.
+- Multi-threaded Server: Handles multiple client connections concurrently.
+- User-friendly GUI: Built using the Qt framework for a smooth user experience.
+- Robust Error Handling: Ensures stable client-server communication.
+
+---
+
+## Tech Stack
+
+- Programming Language: C++
+- Framework: Qt (for GUI and networking)
+- Networking: TCP/IP (using QTcpSocket, QTcpServer)
+- Architecture: Client-Server (Centralized)
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Qt Framework (Qt 5 or 6)
+- C++17 compatible compiler
+- CMake (optional, if not using Qt Creator)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/FigChat.git
+cd FigChat
