@@ -1,5 +1,9 @@
 <h1 align="center" id="title">FigChat</h1>
 
+<p align="center">
+  <img src="images/fig.png" alt="FigChat Logo" width="600">
+</p>
+
 <p align="center" id="description">
 A real-time chat application built using TCP/IP Networking, C++, and the Qt Framework.<br>
 FigChat uses a centralized server model and client-server architecture, offering a seamless messaging experience with support for private messaging, broadcasts, file sharing, and more.
